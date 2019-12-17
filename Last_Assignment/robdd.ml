@@ -227,7 +227,7 @@ let cnf p =
 (*                   Test Cases                          *)
 (* ***************************************************** *)
 
-let n = 100;;
+let n = 3;;
 let thash = Hashtbl.create 10;;
 Hashtbl.add thash 0 (n+1,-1,-1);;
 Hashtbl.add thash 1 (n+1,-1,-1);;
